@@ -19,7 +19,7 @@ npm install dedupe-graphemes
 ## Example
 
 ```js
-import dedupeGraphemes from '@alexstevovich/dedupe-graphemes';
+import dedupeGraphemes from 'dedupe-graphemes';
 
 console.log(dedupeGraphemes('aabbcc')); // "abc"
 console.log(dedupeGraphemes('😀😀😃😄😀')); // "😀😃😄"
